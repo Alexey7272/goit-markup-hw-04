@@ -211,6 +211,8 @@ body {
 .hero {
     padding-top: 200px;
     padding-bottom: 200px;
+    min-width: 1600px;
+    margin: 0 auto;
     text-align: center;
 
     background-color: var(--background-color);
@@ -373,13 +375,13 @@ background-color:var(--second-background-color);
 }
 
 .icon-team-link {
-    display: inline-block;
+    display: flex;
     width: 44px;
     height: 44px;
     justify-content: center;
     align-items: center;
 
-    padding: 12px;
+    
     margin-bottom: 30px;
     
     text-decoration: none;
@@ -395,6 +397,11 @@ background-color:var(--second-background-color);
 .icon-team-link:hover .icon-team,
 .icon-team-link:focus .icon-team {
     fill: var(--title-text-color)
+}
+
+.icon-team-list {
+    display: flex;
+    list-style: none;
 }
 
 .icon-team {
@@ -528,19 +535,19 @@ background-color:var(--second-background-color);
 
 .footer-media-list {
     padding-left: 0;
+    margin: 0;
+    margin-top: 20px;
+    
 }
 
 .footer-media-link {
-    margin-top: 20px;
+   
  
-    display: inline-block;
+    display: flex;
     width: 44px;
     height: 44px;
     justify-content: center;
     align-items: center;
-
-    padding: 12px;
-    margin-bottom: 30px;
 
     background-color: rgba(255, 255, 255, 0.12);
     
@@ -600,6 +607,10 @@ background-color:var(--second-background-color);
     border-right: 1px solid var(--border-color);
     border-bottom: 1px solid var(--border-color);
     border-left: 1px solid var(--border-color);
+}
+
+.project-portfolio-link {
+    display: block;
 }
 
 .project-item {
