@@ -339,7 +339,7 @@ background-color:var(--second-background-color);
 
 .team-list {
     display: flex;
-    margin-top: 50px;   
+    margin-top: 50px;  
 }
 
 .team-item {
@@ -381,12 +381,15 @@ background-color:var(--second-background-color);
     justify-content: center;
     align-items: center;
 
-    
-    margin-bottom: 30px;
-    
     text-decoration: none;
     border-radius: 50%;
     
+}
+
+.icon-team-link ul {
+    margin: 0;
+    padding: 0;
+    list-style: none;
 }
 
 .icon-team-link:hover,
@@ -402,6 +405,9 @@ background-color:var(--second-background-color);
 .icon-team-list {
     display: flex;
     list-style: none;
+    justify-content: center;
+    padding: 0;
+    margin-bottom: 30px;
 }
 
 .icon-team {
@@ -423,7 +429,8 @@ background-color:var(--second-background-color);
 .client-list {
     display: flex;
     list-style: none;
-    padding-inline-start: 0px;
+    margin: 0;
+    padding: 0px;
 }
 
 .client-item:not(:last-child) {
